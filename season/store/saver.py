@@ -7,12 +7,12 @@ from pymongo import database
 
 class Saver:
 
-    def __init__(self,database:database, dbName: str,collection: str):  
-        self.dbName = database[dbName]
-        self.col = dbName[collection]
+    def __init__(self, database:database, dbName: str,collection: str):  
+        self.dbName = database.afriskaut
+        self.col = self.dbName.player
 
     def insert_one(self, playerJson: Dict):
-        self.col.insert_one( playerJson) 
+        self.col.insert_one(playerJson) 
         
 
 
