@@ -11,3 +11,14 @@ class Retriever:
         a =  [elem for elem in self.col.find()]
         return a
 
+    def list_player_data_match(self,matchId):
+        a = [elem for elem in self.col.find({playerMatchEvents: { match: matchId }})]
+        return a
+
+    def list_player_data_season(self, seasonId):
+        a = [elem for elem in self.col.find( {season: seasonId })]
+        return a
+    
+    def list_player_data_position(self, playerPosition):
+        a = [elem for elem in self.col.find( {position: playerPosition })]
+        return a
