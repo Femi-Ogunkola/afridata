@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 from season.store.retriever import Retriever
 
@@ -7,5 +8,6 @@ def  get_player_match_events(eventList):
     return playerMatchEventsDict
 
 def get_player_match_events_csv(file):
-    data = pd.DataFrame.from_dict(file,orient='records')
+    data = pd.DataFrame(file)
+    data = pd.json_normalize(data[0])
     return data

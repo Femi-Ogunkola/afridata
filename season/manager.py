@@ -7,9 +7,7 @@ class Manager:
         self.saver = saver
 
     def update_player():
-
         return 
 
     def get_player_data():
-
         return
