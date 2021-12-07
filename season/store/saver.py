@@ -1,6 +1,8 @@
 # Python code to illustrate
 # inserting data in MongoDB
-from typing import Dict, List
+from typing import Dict
+from typing import List
+
 from pymongo import MongoClient
 from pymongo import database
 

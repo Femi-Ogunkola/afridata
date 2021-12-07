@@ -1,6 +1,5 @@
 import pymongo
 from pymongo import MongoClient
-from pymongo import MongoClient
 
 
 def get_database():

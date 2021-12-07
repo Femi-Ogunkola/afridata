@@ -1,8 +1,13 @@
-import pymongo
 import json
+
 import pandas as pd
+import pymongo
+
 from run import all_events
-from season.get_player_events import get_player_match_events, get_player_match_events_csv, get_timelime, get_timelime_df
+from season.get_player_events import get_player_match_events
+from season.get_player_events import get_player_match_events_csv
+from season.get_player_events import get_timelime
+from season.get_player_events import get_timelime_df
 from season.store.normalize import to_formatted_json
 from season.store.retriever import Retriever
 from season.store.saver import Saver
@@ -22,7 +27,6 @@ def clipping():
 
     for i in range(len(playerDF.index)):
         saver.update_player(list_of_players[i].get('_id'),normalized[i])
-    
     return
 
 
