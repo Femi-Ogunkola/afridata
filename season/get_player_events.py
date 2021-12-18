@@ -26,12 +26,9 @@ def get_timelime_df(data) -> pd.DataFrame:
 def get_player_per_game(players: pd.DataFrame, player):
     A = players.loc[players['player_id'] == player ]
     players = players.select_dtypes(exclude=['object'])
-    stats = {}
-    #print(players.columns)
     for i in players.columns:
-       players[f"{i}/per_game"] = int(A[i].sum())/int(A['match'].nunique())
-
-    return players
+       A[f"{i}/per_game"] = int(A[i].sum())/int(A['match'].nunique())
+    return A
 
 def total(players ,player):
     A = players.loc[players['player_id'] == player ]

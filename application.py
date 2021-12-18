@@ -30,18 +30,21 @@ def clipping():
     return
 
 def per_game(seasonId,playerName):
-    list_of_players = retriever.list_player_data()
+    per_game_saver = Saver(database=client, dbName='afriskaut', collection='per_game')
+    list_of_players = retriever.list_player_data_season(seasonId)
     playerDict = get_player_match_events(list_of_players)
     playerDf = get_player_match_events_csv(playerDict)
     stats = get_player_per_game(playerDf,playerName)
     normalized = to_formatted_json(stats)
-    print(normalized)
-
-    for i in range(len(playerDf.index)):
-        saver.update_player(list_of_players[i].get('_id'),normalized[i])
+    per_game_events = []
+    for j in range(len(normalized)):
+        for i in range(len(list_of_players)):
+            if list_of_players[i].get('playerMatchEvents')[0].get('player_id') == playerName :
+                list_of_players[i].get('playerMatchEvents')[0] = normalized[j]
+                per_game_events.append(list_of_players[i])
+    saver.insert_per_game(per_game_events)
     return
-    #print(normalized)
 
 if __name__== "__main__":
     #clipping()
-    per_game("1","6113e3deb5ef4d0017b81701")
+    per_game(1,"6113e3deb5ef4d0017b81715")
