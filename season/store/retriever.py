@@ -13,13 +13,13 @@ class Retriever:
         return a
 
     def list_player_data_match(self,matchId):
-        a = [elem for elem in self.col.find({playerMatchEvents: { match: matchId }})]
+        a = [elem for elem in self.col.find({'playerMatchEvents': { 'match': matchId }})]
         return a
 
-    def list_player_data_season(self, seasonId):
-        a = [elem for elem in self.col.find( {season: seasonId })]
+    def list_player_data_season(self, season):
+        a = [elem for elem in self.col.find({'seasonId':season})]#{'playerMatchEvents': {'seasonId': season }})]
         return a
     
     def list_player_data_position(self, playerPosition):
-        a = [elem for elem in self.col.find( {position: playerPosition })]
+        a = [elem for elem in self.col.find( {'position': playerPosition })]
         return a

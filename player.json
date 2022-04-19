@@ -1,4 +1,5 @@
-{
+[
+    {
     "_id": "6113e3deb5ef4d0017b81701",
     "name": "Femi Chima",
     "position": "",
@@ -172,4 +173,708 @@
             "__v": 0
         }
     ]
+},
+{
+    "_id": "6113e3deb5ef4d0017b81777",
+    "name": "Femi Chima",
+    "position": "",
+    "number": 19,
+    "dob": "",
+    "__v": 1,
+    "playerMatchEvents": [
+        {
+            "successful_shortpass": {
+                "total": 5,
+                "event_clip": "",
+                "timeline": []
+            },
+            "successful_longpass": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "line_break_pass": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "dribbles": {
+                "attempts": 0,
+                "completed": 0,
+                "skill_moves": 0,
+                "nut_megs": 0,
+                "failed": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "shots": {
+                "outsidebox_ontarget": 0,
+                "outsidebox_offtarget": 0,
+                "insidebox_offtarget": 0,
+                "insidebox_ontarget": 0,
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "crosses": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "goals": {
+                "total": 0,
+                "header": 0,
+                "oneVone": 0,
+                "inside_box_shot_goal": 0,
+                "outside_box_shot_goal": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "assists": {
+                "total": 1,
+                "event_clip": "",
+                "timeline": [
+                    {
+                        "start_time": "0:0",
+                        "stop_time": "0:12",
+                        "_id": "6120f425dafe6f0017c53d9d"
+                    }
+                ]
+            },
+            "chance_created": {
+                "total": 0,
+                "timeline": []
+            },
+            "freeKick": {
+                "off_target": 0,
+                "on_target": 0,
+                "total": 0,
+                "timeline": []
+            },
+            "penalty": {
+                "event_clip": "",
+                "total": 0,
+                "missed": 0,
+                "scored": 0,
+                "timeline": []
+            },
+            "fouls": {
+                "total": 0,
+                "won_in_opp_half": 0,
+                "won_in_own_half": 0,
+                "conceded_in_own_half": 0,
+                "conceded_in_opp_half": 0
+            },
+            "interceptions": {
+                "event_clip": "",
+                "opponents_half": 0,
+                "own_half": 0,
+                "total": 0,
+                "timeline": []
+            },
+            "tackles": {
+                "total": 0,
+                "event_clip": "",
+                "successful": 0,
+                "unsuccessful": 0,
+                "timeline": []
+            },
+            "ball_progression": {
+                "event_clip": "",
+                "total": 0,
+                "own_half": 0,
+                "opp_half": 0,
+                "timeline": []
+            },
+            "blocks": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "clearance": {
+                "total": 0,
+                "event_clip": "",
+                "goal_line": 0,
+                "under_pressure": 0,
+                "timeline": []
+            },
+            "duels": {
+                "total": 0,
+                "event_clip": "",
+                "won_aerial": 0,
+                "won_ground": 0,
+                "timeline": []
+            },
+            "saves": {
+                "event_clip": "",
+                "oneVone": 0,
+                "inside_box": 0,
+                "outside_box": 1,
+                "total": 1,
+                "timeline": [
+                    {
+                        "start_time": "4:33",
+                        "stop_time": "4:34",
+                        "_id": "6120f425dafe6f0017c53d9e"
+                    }
+                ]
+            },
+            "card": {
+                "total": 0,
+                "yellow_dissent": 0,
+                "yellow_foul": 0,
+                "red_dissent": 0,
+                "red_foul": 0
+            },
+            "catches": {
+                "event_clip": "",
+                "simple": 0,
+                "complex": 1,
+                "total": 1,
+                "timeline": [
+                    {
+                        "start_time": "0:53",
+                        "stop_time": "0:54",
+                        "_id": "6120f425dafe6f0017c53d9f"
+                    }
+                ]
+            },
+            "start": 1,
+            "minutes": 88,
+            "bench": 0,
+            "_id": "6120f425dafe6f0017c53d9c",
+            "match": "611fb82fcec3be0017a4c843",
+            "player_id": "6113e3deb5ef4d0017b81701",
+            "__v": 0
+        }
+    ]
+},
+{
+    "_id": "6113e3deb5ef4d0017b81711",
+    "name": "Nnamdi",
+    "position": "",
+    "number": 1,
+    "dob": "",
+    "__v": 1,
+    "seasonId": 1,
+    "playerMatchEvents": [
+        {
+            "successful_shortpass": {
+                "total": 5,
+                "event_clip": "",
+                "timeline": []
+            },
+            "successful_longpass": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "line_break_pass": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "dribbles": {
+                "attempts": 0,
+                "completed": 0,
+                "skill_moves": 0,
+                "nut_megs": 0,
+                "failed": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "shots": {
+                "outsidebox_ontarget": 0,
+                "outsidebox_offtarget": 0,
+                "insidebox_offtarget": 0,
+                "insidebox_ontarget": 0,
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "crosses": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "goals": {
+                "total": 0,
+                "header": 0,
+                "oneVone": 0,
+                "inside_box_shot_goal": 0,
+                "outside_box_shot_goal": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "assists": {
+                "total": 1,
+                "event_clip": "",
+                "timeline": [
+                    {
+                        "start_time": "0:0",
+                        "stop_time": "0:12",
+                        "_id": "6120f425dafe6f0017c53d9d"
+                    }
+                ]
+            },
+            "chance_created": {
+                "total": 0,
+                "timeline": []
+            },
+            "freeKick": {
+                "off_target": 0,
+                "on_target": 0,
+                "total": 0,
+                "timeline": []
+            },
+            "penalty": {
+                "event_clip": "",
+                "total": 0,
+                "missed": 0,
+                "scored": 0,
+                "timeline": []
+            },
+            "fouls": {
+                "total": 0,
+                "won_in_opp_half": 0,
+                "won_in_own_half": 0,
+                "conceded_in_own_half": 0,
+                "conceded_in_opp_half": 0
+            },
+            "interceptions": {
+                "event_clip": "",
+                "opponents_half": 0,
+                "own_half": 0,
+                "total": 0,
+                "timeline": []
+            },
+            "tackles": {
+                "total": 0,
+                "event_clip": "",
+                "successful": 0,
+                "unsuccessful": 0,
+                "timeline": []
+            },
+            "ball_progression": {
+                "event_clip": "",
+                "total": 0,
+                "own_half": 0,
+                "opp_half": 0,
+                "timeline": []
+            },
+            "blocks": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "clearance": {
+                "total": 0,
+                "event_clip": "",
+                "goal_line": 0,
+                "under_pressure": 0,
+                "timeline": []
+            },
+            "duels": {
+                "total": 0,
+                "event_clip": "",
+                "won_aerial": 0,
+                "won_ground": 0,
+                "timeline": []
+            },
+            "saves": {
+                "event_clip": "",
+                "oneVone": 0,
+                "inside_box": 0,
+                "outside_box": 1,
+                "total": 1,
+                "timeline": [
+                    {
+                        "start_time": "4:33",
+                        "stop_time": "4:34",
+                        "_id": "6120f425dafe6f0017c53d9e"
+                    }
+                ]
+            },
+            "card": {
+                "total": 0,
+                "yellow_dissent": 0,
+                "yellow_foul": 0,
+                "red_dissent": 0,
+                "red_foul": 0
+            },
+            "catches": {
+                "event_clip": "",
+                "simple": 0,
+                "complex": 1,
+                "total": 1,
+                "timeline": [
+                    {
+                        "start_time": "0:53",
+                        "stop_time": "0:54",
+                        "_id": "6120f425dafe6f0017c53d9f"
+                    }
+                ]
+            },
+            "start": 1,
+            "minutes": 88,
+            "bench": 0,
+            "_id": "6120f425dafe6f0017c53ddc",
+            "match": "611fb82fcec3be0017a4c843",
+            "player_id": "6113e3deb5ef4d0017b81711",
+            "__v": 0
+        }
+    ]
+},
+{
+    "_id": "6113e3deb5ef4d0017b81715",
+    "name": "Ussa",
+    "position": "",
+    "number": 1,
+    "dob": "",
+    "__v": 1,
+    "seasonId": 1,
+    "playerMatchEvents": [
+        {
+            "successful_shortpass": {
+                "total": 5,
+                "event_clip": "",
+                "timeline": []
+            },
+            "successful_longpass": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "line_break_pass": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "dribbles": {
+                "attempts": 0,
+                "completed": 0,
+                "skill_moves": 0,
+                "nut_megs": 0,
+                "failed": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "shots": {
+                "outsidebox_ontarget": 0,
+                "outsidebox_offtarget": 0,
+                "insidebox_offtarget": 0,
+                "insidebox_ontarget": 0,
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "crosses": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "goals": {
+                "total": 0,
+                "header": 0,
+                "oneVone": 0,
+                "inside_box_shot_goal": 0,
+                "outside_box_shot_goal": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "assists": {
+                "total": 1,
+                "event_clip": "",
+                "timeline": [
+                    {
+                        "start_time": "0:0",
+                        "stop_time": "0:12",
+                        "_id": "6120f425dafe6f0017c53d9d"
+                    }
+                ]
+            },
+            "chance_created": {
+                "total": 0,
+                "timeline": []
+            },
+            "freeKick": {
+                "off_target": 0,
+                "on_target": 0,
+                "total": 0,
+                "timeline": []
+            },
+            "penalty": {
+                "event_clip": "",
+                "total": 0,
+                "missed": 0,
+                "scored": 0,
+                "timeline": []
+            },
+            "fouls": {
+                "total": 0,
+                "won_in_opp_half": 0,
+                "won_in_own_half": 0,
+                "conceded_in_own_half": 0,
+                "conceded_in_opp_half": 0
+            },
+            "interceptions": {
+                "event_clip": "",
+                "opponents_half": 0,
+                "own_half": 0,
+                "total": 0,
+                "timeline": []
+            },
+            "tackles": {
+                "total": 0,
+                "event_clip": "",
+                "successful": 0,
+                "unsuccessful": 0,
+                "timeline": []
+            },
+            "ball_progression": {
+                "event_clip": "",
+                "total": 0,
+                "own_half": 0,
+                "opp_half": 0,
+                "timeline": []
+            },
+            "blocks": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "clearance": {
+                "total": 0,
+                "event_clip": "",
+                "goal_line": 0,
+                "under_pressure": 0,
+                "timeline": []
+            },
+            "duels": {
+                "total": 0,
+                "event_clip": "",
+                "won_aerial": 0,
+                "won_ground": 0,
+                "timeline": []
+            },
+            "saves": {
+                "event_clip": "",
+                "oneVone": 0,
+                "inside_box": 0,
+                "outside_box": 1,
+                "total": 1,
+                "timeline": [
+                    {
+                        "start_time": "4:33",
+                        "stop_time": "4:34",
+                        "_id": "6120f425dafe6f0017c53d9e"
+                    }
+                ]
+            },
+            "card": {
+                "total": 0,
+                "yellow_dissent": 0,
+                "yellow_foul": 0,
+                "red_dissent": 0,
+                "red_foul": 0
+            },
+            "catches": {
+                "event_clip": "",
+                "simple": 0,
+                "complex": 1,
+                "total": 1,
+                "timeline": [
+                    {
+                        "start_time": "0:53",
+                        "stop_time": "0:54",
+                        "_id": "6120f425dafe6f0017c53d9f"
+                    }
+                ]
+            },
+            "start": 1,
+            "minutes": 88,
+            "bench": 0,
+            "_id": "6120f425dafe6f0017c53ddc",
+            "match": "611fb82fcec3be0017a4c843",
+            "player_id": "6113e3deb5ef4d0017b81715",
+            "__v": 0
+        }
+    ]
+},
+{
+    "_id": "6113e3deb5ef4d0017b81725",
+    "name": "Josh",
+    "position": "",
+    "number": 1,
+    "dob": "",
+    "__v": 1,
+    "seasonId": 1,
+    "playerMatchEvents": [
+        {
+            "successful_shortpass": {
+                "total": 5,
+                "event_clip": "",
+                "timeline": []
+            },
+            "successful_longpass": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "line_break_pass": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "dribbles": {
+                "attempts": 0,
+                "completed": 0,
+                "skill_moves": 0,
+                "nut_megs": 0,
+                "failed": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "shots": {
+                "outsidebox_ontarget": 0,
+                "outsidebox_offtarget": 0,
+                "insidebox_offtarget": 0,
+                "insidebox_ontarget": 0,
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "crosses": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "goals": {
+                "total": 0,
+                "header": 0,
+                "oneVone": 0,
+                "inside_box_shot_goal": 0,
+                "outside_box_shot_goal": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "assists": {
+                "total": 1,
+                "event_clip": "",
+                "timeline": [
+                    {
+                        "start_time": "0:0",
+                        "stop_time": "0:12",
+                        "_id": "6120f425dafe6f0017c53d9d"
+                    }
+                ]
+            },
+            "chance_created": {
+                "total": 0,
+                "timeline": []
+            },
+            "freeKick": {
+                "off_target": 0,
+                "on_target": 0,
+                "total": 0,
+                "timeline": []
+            },
+            "penalty": {
+                "event_clip": "",
+                "total": 0,
+                "missed": 0,
+                "scored": 0,
+                "timeline": []
+            },
+            "fouls": {
+                "total": 0,
+                "won_in_opp_half": 0,
+                "won_in_own_half": 0,
+                "conceded_in_own_half": 0,
+                "conceded_in_opp_half": 0
+            },
+            "interceptions": {
+                "event_clip": "",
+                "opponents_half": 0,
+                "own_half": 0,
+                "total": 0,
+                "timeline": []
+            },
+            "tackles": {
+                "total": 0,
+                "event_clip": "",
+                "successful": 0,
+                "unsuccessful": 0,
+                "timeline": []
+            },
+            "ball_progression": {
+                "event_clip": "",
+                "total": 0,
+                "own_half": 0,
+                "opp_half": 0,
+                "timeline": []
+            },
+            "blocks": {
+                "total": 0,
+                "event_clip": "",
+                "timeline": []
+            },
+            "clearance": {
+                "total": 0,
+                "event_clip": "",
+                "goal_line": 0,
+                "under_pressure": 0,
+                "timeline": []
+            },
+            "duels": {
+                "total": 0,
+                "event_clip": "",
+                "won_aerial": 0,
+                "won_ground": 0,
+                "timeline": []
+            },
+            "saves": {
+                "event_clip": "",
+                "oneVone": 0,
+                "inside_box": 0,
+                "outside_box": 1,
+                "total": 1,
+                "timeline": [
+                    {
+                        "start_time": "4:33",
+                        "stop_time": "4:34",
+                        "_id": "6120f425dafe6f0017c53d9e"
+                    }
+                ]
+            },
+            "card": {
+                "total": 0,
+                "yellow_dissent": 0,
+                "yellow_foul": 0,
+                "red_dissent": 0,
+                "red_foul": 0
+            },
+            "catches": {
+                "event_clip": "",
+                "simple": 0,
+                "complex": 1,
+                "total": 1,
+                "timeline": [
+                    {
+                        "start_time": "0:53",
+                        "stop_time": "0:54",
+                        "_id": "6120f425dafe6f0017c53d9f"
+                    }
+                ]
+            },
+            "start": 1,
+            "minutes": 88,
+            "bench": 0,
+            "_id": "6120f425dafe6f0017c53ddc",
+            "match": "611fb82fcec3be0017a4c843",
+            "player_id": "6113e3deb5ef4d0017b81725",
+            "__v": 0
+        }
+    ]
 }
+]
